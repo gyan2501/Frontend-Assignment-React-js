@@ -1,0 +1,43 @@
+#navbar {
+  background-color: #0fb1ac;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#navbar input {
+  height: 80%;
+  width: 25%;
+  margin: auto;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media  (max-width: 1200px) {
+  #navbar input {
+    width: 60%;
+  }
+}
+
+@media  (max-width: 761px) {
+  #navbar input {
+    width: 80%;
+  }
+}
+
+/* Small Screen */
+@media  (max-width: 480px) {
+  #navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px;
+  }
+
+  #navbar input {
+    width: 90%;
+    margin-top: 8px;
+  }
+}
